@@ -5,31 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="first.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <div id="logo">
-                <img src="logo.png" alt="logo" id="logoimg">
-            </div>
-            <div class="mid-options">
-                <a href="#" class="no-underline">Menu</a>
-                <a href="#" class="no-underline">Order</a>
-                <a href="#" class="no-underline">Restaurants</a>
-                <a href="#" class="no-underline">Track Order</a>
-            </div>
+    <div class="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="logo" id="logoimg">
+        </div>
+        <div class="mid-options">
+            <a href="#" class="no-underline">Menu</a>
+            <a href="#" class="no-underline">Order</a>
+            <a href="#" class="no-underline">Restaurants</a>
+            <a href="#" class="no-underline">Track Order</a>
+        </div>
 
-            <div class="search_cart">
-                <input id="search" type="text" placeholder="Search Restaurant & Cuisines">
-                <a href="#" class="cart">
-                    <img src="cart.png" alt="cart" id="cartlogo">
-                </a>
+        <div class="search_cart">
+            <input id="search" type="text" placeholder="Search Restaurant & Cuisines">
+            <div class="cart">
+                <img src="cart.png" alt="cart" id="cartlogo">
             </div>
         </div>
-    </header>
+    </div>
 
     <section id="landing1">
         <div id="body_1">
@@ -57,8 +54,30 @@
 
                 </div>
             </div>
-            <div id=" right">
+            <div id="right">
                 <img src="landing-photo.png" alt="landing" id="landing-photo">
+
+                <div id="review-box">
+                    <div id="review-top">
+                        <img src="customer.png" alt="customer" id="review-avatar">
+                        <div id="review-user-info">
+                            <div id="review-stars-row">
+                                <img src="star.png" alt="star" class="r-star">
+                                <img src="star.png" alt="star" class="r-star">
+                                <img src="star.png" alt="star" class="r-star">
+                                <img src="star.png" alt="star" class="r-star">
+                                <img src="star.png" alt="star" class="r-star">
+                                <span id="review-rating">5.0</span>
+                            </div>
+                            <h4 id="review-name">Shrinivas</h4>
+                        </div>
+                    </div>
+                    <div id="review-body">
+                        <span id="review-quote">“</span>
+                        <p id="review-text">Great Food!</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -241,6 +260,55 @@
 
     </section>
 
+    <section id="page6">
+        <div id="p6_main">
+            <div class="p6_left">
+                <div id="p6_img">
+                    <img src="Mobile.png" alt="mobile" id="mobile-img">
+                </div>
+            </div>
+            <div class="p6_right">
+                <div id="download-app">
+                    Download our app
+                </div>
+
+                <div id="Tag">
+                    Manage Orders <br> from your phone
+                </div>
+
+                <div id="app-tagline">
+                    Get extra feature on app including tracking order, managing account much more.
+                </div>
+
+                <div id="app-stores">
+                    <a href="#"><img src="play.svg" alt="Google Play"></a>
+                    <a href="#"><img src="apple.svg" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="page7">
+        <div id="p7_banner">
+
+            <img src="green_back.png" alt="green_backgroud_containing_foods" id="green_back">
+
+            <div id="p7_left">
+                <p class="p7_txt_1">Get an extra 20% off on your first order</p>
+
+                <p class="p7_txt_2">Use this code during checkout</p>
+
+                <div id="p7_button">
+                    <button id="welcome20">Welcome20</button>
+                </div>
+            </div>
+
+            <div id="p7_right">
+                <img src="penne_bowl.png" alt="pasta" id="p7_img">
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div id="footer_main">
             <div class="footer_left">
@@ -278,6 +346,7 @@
         </div>
     </footer>
 
+    <script src="first.js"></script>
 </body>
 
 </html>
