@@ -124,39 +124,11 @@ if (l2OrderBtn) {
     });
 }
 
-let welcomeBtn = document.querySelector("#welcome20");
-if (welcomeBtn) {
-    welcomeBtn.addEventListener("click", () => {
-        navigator.clipboard.writeText("Welcome20").catch(() => {});
-        welcomeBtn.innerText = "COPIED! ✓";
-        setTimeout(() => {
-            welcomeBtn.innerText = "Welcome20";
-        }, 1500);
-    });
-}
-
-let searchInput = document.querySelector("#search");
-if (searchInput) {
-    searchInput.addEventListener("keypress", (e) => {
-        if (e.key === "Enter") {
-            document.querySelector("#page3").scrollIntoView({ behavior: "smooth" });
-        }
-    });
-}
-
 let exploreInput = document.querySelector("#explore");
 if (exploreInput) {
     exploreInput.addEventListener("keypress", (e) => {
         if (e.key === "Enter") {
             document.querySelector("#page3").scrollIntoView({ behavior: "smooth" });
         }
-    });
-}
-
-let cartBtn = document.querySelector(".cart");
-if (cartBtn) {
-    cartBtn.style.cursor = "pointer";
-    cartBtn.addEventListener("click", () => {
-        document.querySelector("#page3").scrollIntoView({ behavior: "smooth" });
     });
 }
