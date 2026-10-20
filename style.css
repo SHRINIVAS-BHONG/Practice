@@ -1,0 +1,534 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#landing1 {
+    background-color: rgb(213, 230, 239);
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(213, 230, 239);
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 1000;
+}
+
+.mid-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+
+#logoimg {
+    width: 40px;
+    height: 40px;
+}
+
+.search_cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#search {
+    height: 25px;
+    width: 250px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    border: 0px;
+}
+
+
+#cartlogo {
+    width: 25px;
+    height: 25px;
+}
+
+#body_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    width: 100vw;
+    height: 500px;
+}
+
+#left {
+    width: 30%;
+}
+
+#right {
+    width: 30%;
+}
+
+#l1-h1 {
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 92, 61);
+}
+
+#l1-p {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    color: rgb(4, 92, 61);
+}
+
+#explore {
+    height: 50px;
+    width: 95%;
+    border-radius: 7px;
+    border: 0px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#landing-photo {
+    width: 600px;
+    height: 500px;
+}
+
+.l-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 50px;
+    font-family: Arial, sans-serif;
+}
+
+#order-food {
+    height: 50px;
+    width: 40%;
+    background-color: rgb(4, 92, 61);
+    color: rgb(254, 251, 251);
+    text-align: center;
+    border: 0px solid;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Make-reservation {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(241, 246, 244);
+    color: rgb(4, 92, 61);
+    text-align: center;
+    border: 2px solid rgb(4, 92, 61);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#l2-buttons,
+.l2-buttons {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(4, 92, 61);
+    color: rgb(254, 251, 251);
+    text-align: center;
+    border: 0px solid;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#body_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#left2 {
+    width: 30%;
+}
+
+#right2 {
+    width: 30%;
+}
+
+#l2-h1 {
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    color: rgb(1, 13, 9);
+}
+
+#l2-p {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    color: rgb(1, 15, 10);
+}
+
+#five-star {
+    font-size: 15px;
+    width: 39%;
+    height: 22px;
+    font-family: Arial, sans-serif;
+    color: rgb(5, 77, 51);
+    background-color: rgb(212, 231, 222, 0.8);
+    text-align: center;
+    border-radius: 1px;
+    padding-top: 2px;
+}
+
+#page2 {
+    position: relative;
+    overflow: hidden;
+}
+
+#leaf {
+    position: absolute;
+    right: -30px;
+    top: 38%;
+    width: 170px;
+}
+
+#page3 {
+    background-color: rgb(220, 222, 224);
+    height: 73vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 26%;
+    position: relative;
+}
+
+.food-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.card div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-family: Arial, sans-serif;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: rgb(25, 25, 25);
+}
+
+.card .rating {
+    background-color: rgb(4, 92, 61);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.star {
+    width: 12px;
+    height: 12px;
+}
+
+.food-type {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    margin-top: 4px;
+}
+
+.location {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+    margin-top: 4px;
+}
+
+.discount {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgb(205, 32, 38);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+#page4 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    background-color: #DFF2FA;
+    overflow: hidden;
+}
+
+#p4-left {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#Orbiting_Pizza {
+    height: 90vh;
+}
+
+#p4-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 40px;
+}
+
+#p4_R_up {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+#Why_Us h3 {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    color: rgb(5, 77, 51);
+    font-weight: bold;
+}
+
+#p4_txt {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: rgb(40, 40, 40);
+    width: 85%;
+    line-height: 1.5;
+}
+
+#p4_R_down {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    font-family: Arial, sans-serif;
+}
+
+.box h3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+.box-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.box p {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: rgb(110, 110, 110);
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+#page5 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#p5_head h3 {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    color: rgb(5, 77, 51);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: rgb(30, 30, 30);
+}
+
+#Questions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.Question {
+    width: 85%;
+    padding: 18px 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+.Question summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+}
+
+.Question summary::-webkit-details-marker {
+    display: none;
+}
+
+.answer {
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.5;
+}
+
+.Question img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+#page6 {
+    width: 100vw;
+    height: 80vh;
+}
+
+#p6_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.p6_left {
+    width: 45%;
+}
+
+#mobile-img {
+    width: 500px;
+    height: 80%;
+}
+
+.p6_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    width: 45%;
+}
+
+.p6_right h3 {
+    font-size: 32px;
+    color: rgb(5, 77, 51);
+    font-weight: bold;
+}
+
+#Tag {
+    font-size: 50px;
+    width: 470px;
+    font-family: Arial, sans-serif;
+    color: rgb(30, 30, 30);
+}
+
+#download-app {
+    font-size: 15px;
+    width: 24%;
+    height: 22px;
+    font-family: Arial, sans-serif;
+    color: rgb(5, 77, 51);
+    background-color: rgb(212, 231, 222, 0.8);
+    text-align: center;
+    border-radius: 1px;
+    padding-top: 2px;
+}
+
+#app-tagline {
+    width: 500px;
+}
